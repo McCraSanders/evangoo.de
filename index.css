@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* {
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0; }
+
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: black;
+  font-family: Montserrat;
+  color: white; }
+
+h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  -webkit-animation: letter-spacing 3s ease-in-out, shimmer 1s linear;
+          animation: letter-spacing 3s ease-in-out, shimmer 1s linear;
+  -webkit-animation-delay: 0, 3s;
+          animation-delay: 0, 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards; }
+
+@-webkit-keyframes letter-spacing {
+  from {
+    opacity: 0;
+    letter-spacing: 0; }
+  to {
+    letter-spacing: 0.2em; } }
+
+@keyframes letter-spacing {
+  from {
+    opacity: 0;
+    letter-spacing: 0; }
+  to {
+    letter-spacing: 0.2em; } }
+
+@-webkit-keyframes shimmer {
+  from {
+    -webkit-clip-path: polygon(0 0, 0 100%, calc(-25% - 2em) 100%, -2em 0, 0 0, -25% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0);
+            clip-path: polygon(0 0, 0 100%, calc(-25% - 2em) 100%, -2em 0, 0 0, -25% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0); }
+  to {
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 125% 0, calc(125% + 2em) 0, calc(100% + 2em) 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0);
+            clip-path: polygon(0 0, 0 100%, 100% 100%, 125% 0, calc(125% + 2em) 0, calc(100% + 2em) 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0); } }
+
+@keyframes shimmer {
+  from {
+    -webkit-clip-path: polygon(0 0, 0 100%, calc(-25% - 2em) 100%, -2em 0, 0 0, -25% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0);
+            clip-path: polygon(0 0, 0 100%, calc(-25% - 2em) 100%, -2em 0, 0 0, -25% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0); }
+  to {
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 125% 0, calc(125% + 2em) 0, calc(100% + 2em) 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0);
+            clip-path: polygon(0 0, 0 100%, 100% 100%, 125% 0, calc(125% + 2em) 0, calc(100% + 2em) 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0); } }
