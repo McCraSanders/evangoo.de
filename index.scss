@@ -1,5 +1,7 @@
 $background: black;
 $color: white;
+$icon-size: 2em;
+$transition-duration: 0.25s;
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 * {
   box-sizing: border-box;
@@ -15,28 +17,85 @@ body {
   background: $background;
   font-family: Montserrat;
   color: $color;
+  text-align: center;
+}
+main {
+  animation: opacity 3s ease-in-out, shimmer 1s linear;
+  animation-delay: 0s, 3s;
 }
 h1 {
   font-size: 4em;
   text-transform: uppercase;
-  animation: letter-spacing 3s ease-in-out, shimmer 1s linear;
-  animation-delay: 0, 3s;
+  animation: letter-spacing 3s ease-in-out;
   animation-fill-mode: forwards;
+  text-align: inherit;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  svg {
+    transition: transform $transition-duration ease-in-out;
+    height: $icon-size;
+    width: $icon-size;
+    path {
+      fill: $color;
+    }
+    &:hover {
+      transform: scale(0.9);
+    }
+  }
+}
+.modal {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparentize($background, 0.5);
+  z-index: -1;
+  transition: transform $transition-duration ease-in-out, opacity $transition-duration ease-in-out;
+
+  opacity: 0;
+  transform: scale(1.2);
+
+  &.active {
+    z-index: 1;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  svg {
+    $size: 16em;
+    width: $size;
+    height: $size;
+  }
+}
+@keyframes opacity {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
 }
 @keyframes letter-spacing {
   from {
-    opacity: 0;
     letter-spacing: 0;
   } to {
     letter-spacing: 0.2em;
   }
 }
 @keyframes shimmer {
-  $distance: 2em;
-  //angle
+  $distance: 64px;
+  $angle: 20%;
   from {
-    clip-path: polygon(0 0, 0 100%, calc(-25% - #{$distance}) 100%, -#{$distance} 0, 0 0, -25% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0);
+    clip-path: polygon(0 0, 0 100%, calc(-#{$angle} - #{$distance}) 100%, -#{$distance} 0, 0 0, -#{$angle} 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0);
   } to {
-    clip-path: polygon(0 0, 0 100%, 100% 100%, 125% 0, calc(125% + #{$distance}) 0, calc(100% + #{$distance}) 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, calc(100% + #{$angle}) 0, calc(100% + #{$angle} + #{$distance}) 0, calc(100% + #{$distance}) 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0);
   }
 }
