@@ -54,8 +54,8 @@ h1 {
   .links svg {
     -webkit-transition: -webkit-transform 0.25s ease-in-out;
             transition: transform 0.25s ease-in-out;
-    height: 2em;
-    width: 2em; }
+    height: 2.5em;
+    width: 2.5em; }
     .links svg path {
       fill: white; }
     .links svg:hover {
@@ -84,15 +84,15 @@ h1 {
       -ms-flex-pack: center;
           justify-content: center;
   background: rgba(0, 0, 0, 0.5);
-  z-index: -1;
   -webkit-transition: -webkit-transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
           transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+  pointer-events: none;
   opacity: 0;
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2); }
   .modal.active {
-    z-index: 1;
+    pointer-events: auto;
     opacity: 1;
     -webkit-transform: scale(1);
         -ms-transform: scale(1);
