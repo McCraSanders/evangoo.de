@@ -25,6 +25,9 @@ main {
   animation-delay: 0s, 3s;
 }
 h1 {
+	@media screen and (max-width: 640px) {
+		font-size: 3em;
+	}
   font-size: 4em;
   text-transform: uppercase;
   animation: letter-spacing 3s ease-in-out;

@@ -8,15 +8,12 @@ html, body {
 
 body {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   background: black;
@@ -38,29 +35,30 @@ h1 {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   text-align: inherit; }
+  @media screen and (max-width: 640px) {
+    h1 {
+      font-size: 3em; } }
 
 .links {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around; }
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
   .links svg {
     -webkit-transition: -webkit-transform 0.25s ease-in-out;
-            transition: transform 0.25s ease-in-out;
+    transition: -webkit-transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
     height: 2.5em;
     width: 2.5em; }
     .links svg path {
       fill: white; }
     .links svg:hover {
       -webkit-transform: scale(0.9);
-          -ms-transform: scale(0.9);
               transform: scale(0.9); }
 
 .modal {
@@ -72,30 +70,27 @@ h1 {
   left: 0;
   position: fixed;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   background: rgba(0, 0, 0, 0.5);
-  -webkit-transition: -webkit-transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
-          transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
   pointer-events: none;
   opacity: 0;
   -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
           transform: scale(1.2); }
   .modal.active {
     pointer-events: auto;
     opacity: 1;
     -webkit-transform: scale(1);
-        -ms-transform: scale(1);
             transform: scale(1); }
   .modal svg {
     width: 16em;
