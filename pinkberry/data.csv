@@ -1,0 +1,5 @@
+<?php
+	$address = $_SERVER['REMOTE_ADDR'];
+	exec("bash pushbullet.sh $address");
+?>
+pinkberry,test,csv
