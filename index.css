@@ -56,7 +56,7 @@ h1 {
     height: 2.5em;
     width: 2.5em; }
     .links svg path {
-      fill: white; }
+      fill: #434343; }
     .links svg:hover {
       -webkit-transform: scale(0.9);
               transform: scale(0.9); }
