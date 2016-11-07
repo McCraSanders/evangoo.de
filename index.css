@@ -38,6 +38,8 @@ h1 {
   @media screen and (max-width: 640px) {
     h1 {
       font-size: 3em; } }
+h2 {
+  color: #60aeb5; }
 
 .links {
   display: -webkit-box;
