@@ -42,8 +42,8 @@ h2 {
   color: #60aeb5; 
    -webkit-animation: letter-spacing 3s ease-in-out;
           animation: letter-spacing 3s ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
   text-align: inherit; }
 
 .links {
