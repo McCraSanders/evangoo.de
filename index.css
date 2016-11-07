@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 * {
   box-sizing: border-box; }
 
@@ -17,7 +17,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   background: #fffceb;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
   color: #60aeb5;
   text-align: center; }
 
