@@ -16,9 +16,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: black;
-  font-family: Montserrat;
-  color: white;
+  background: #ffffff;
+  font-family: Raleway;
+  color: #434343;
   text-align: center; }
 
 main {
