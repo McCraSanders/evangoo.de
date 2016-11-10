@@ -42,7 +42,7 @@ h1 {
     transition: transform $transition-duration ease-in-out;
     height: $icon-size;
     width: $icon-size;
-    path {
+    path, circle {
       fill: $color;
     }
     &:hover {

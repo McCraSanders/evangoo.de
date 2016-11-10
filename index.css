@@ -63,7 +63,7 @@ h2 {
     transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
     height: 2.5em;
     width: 2.5em; }
-    .links svg path {
+    .links svg path, svg circle {
       fill: #60aeb5; }
     .links svg:hover {
       -webkit-transform: scale(0.9);
