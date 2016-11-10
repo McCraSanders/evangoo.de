@@ -30,7 +30,6 @@ main {
 
 h1 {
   font-size: 4em;
-  text-transform: uppercase;
   -webkit-animation: letter-spacing 3s ease-in-out;
           animation: letter-spacing 3s ease-in-out;
   -webkit-animation-fill-mode: forwards;
