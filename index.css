@@ -47,6 +47,10 @@ h2 {
           animation-fill-mode: forwards;
   text-align: inherit; }
 
+.alt {
+  color: #fff; 
+}
+
 .links {
   display: -webkit-box;
   display: -ms-flexbox;
