@@ -16,10 +16,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #fffdec;
+  background: #6a6a69;
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
-  color: #a3c9ca;
+  color: #000000;
   text-align: center; }
 
 main {
@@ -39,7 +39,7 @@ h1 {
     h1 {
       font-size: 3em; } }
 h2 {
-  color: #a3c9ca; 
+  color: #000000; 
    -webkit-animation: letter-spacing 3s ease-in-out;
           animation: letter-spacing 3s ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -63,7 +63,7 @@ h2 {
     height: 2.5em;
     width: 2.5em; }
     .links svg path, svg circle {
-      fill: #a3c9ca; }
+      fill: #000000; }
     .links svg:hover {
       -webkit-transform: scale(0.9);
               transform: scale(0.9); }
