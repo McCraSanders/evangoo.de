@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none; }
 
 html, body {
   height: 100%;
@@ -17,7 +19,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: 'Raleway', sans-serif;
-  font-weight: normal;
   color: white;
   fill: white;
   -webkit-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
@@ -26,15 +27,21 @@ body {
   text-align: center;
   background-color: black;
   background-image: url(TdGn46C.png);
-  background-size: cover; 
-  Background-repeat: no-repeat;
-  background-position: -40vw -40vh; }
+  animation: zoom 2s ease-out forwards;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+@keyframes zoom {
+  from {
+    background-size: 50vh 50vh;
+  } to {
+    background-size: 100vh 100vh;
+  }
+}
 
 main {
-  -webkit-animation: opacity 3s ease-in-out, shimmer 1s linear;
-          animation: opacity 3s ease-in-out, shimmer 1s linear;
-  -webkit-animation-delay: 0s, 3s;
-          animation-delay: 0s, 3s; }
+  -webkit-animation: opacity 3s ease-in-out;
+          animation: opacity 3s ease-in-out; }
 
 h1 {
   font-size: 4em;
@@ -133,19 +140,3 @@ h2 {
     letter-spacing: 0; }
   to {
     letter-spacing: 0.2em; } }
-
-@-webkit-keyframes shimmer {
-  from {
-    -webkit-clip-path: polygon(0 0, 0 100%, calc(-20% - 64px) 100%, -64px 0, 0 0, -20% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0);
-            clip-path: polygon(0 0, 0 100%, calc(-20% - 64px) 100%, -64px 0, 0 0, -20% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0); }
-  to {
-    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, calc(100% + 20%) 0, calc(100% + 20% + 64px) 0, calc(100% + 64px) 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0);
-            clip-path: polygon(0 0, 0 100%, 100% 100%, calc(100% + 20%) 0, calc(100% + 20% + 64px) 0, calc(100% + 64px) 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0); } }
-
-@keyframes shimmer {
-  from {
-    -webkit-clip-path: polygon(0 0, 0 100%, calc(-20% - 64px) 100%, -64px 0, 0 0, -20% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0);
-            clip-path: polygon(0 0, 0 100%, calc(-20% - 64px) 100%, -64px 0, 0 0, -20% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0); }
-  to {
-    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, calc(100% + 20%) 0, calc(100% + 20% + 64px) 0, calc(100% + 64px) 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0);
-            clip-path: polygon(0 0, 0 100%, 100% 100%, calc(100% + 20%) 0, calc(100% + 20% + 64px) 0, calc(100% + 64px) 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0); } }
