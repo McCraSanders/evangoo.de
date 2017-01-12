@@ -28,14 +28,14 @@ body {
   background-color: black;
   background-image: url(TdGn46C.png);
   animation: zoom 2s ease-out forwards;
-  background-size: 60ew 60eh;
+  background-size: 100ew 100eh;
   background-repeat: no-repeat; }
 
 @keyframes zoom {
   from {
     background-size: 30ew 30eh;
   } to {
-    background-size: 60ew 60eh;
+    background-size: 100ew 100eh;
   }
 }
 
