@@ -28,7 +28,7 @@ body {
   position: 40eh 40ew;
   background-color: black;
   background-image: url(TdGn46C.png);
-  animation: zoom 3s ease-in-out;
+  animation: zoom 3s ease-out;
   background-size: 100ew 100eh;
   background-repeat: no-repeat; }
 
