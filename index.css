@@ -19,9 +19,9 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: 'Raleway', sans-serif;
-  font-weight: 100; 
-  color: white;
-  fill: white;
+  font-weight: lighter; 
+  color: grey;
+  fill: grey;
   -webkit-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
   -moz-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
   filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
