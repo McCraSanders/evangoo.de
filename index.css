@@ -32,6 +32,11 @@ body {
   background-size: 600px 600px;
   background-repeat: no-repeat; }
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 main {
   -webkit-animation: opacity 3s ease-in-out;
           animation: opacity 3s ease-in-out; }
