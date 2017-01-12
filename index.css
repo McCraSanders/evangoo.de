@@ -28,11 +28,42 @@ body {
   position: 40eh 40ew;
   background-color: black;
   background-image: url(TdGn46C.png);
-  animation: fadein 3s ease-in;
   background-size: 600px 600px;
   background-repeat: no-repeat; }
 
+<img src="TdGn46C.png" alt="Image" class="fadeImage" />
+
+.fadeImage {
+    -webkit-animation: fadein 3s; 
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;
+    display: block;
+    margin: 25px auto;
+}
+
 @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
