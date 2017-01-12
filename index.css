@@ -25,6 +25,7 @@ body {
   -moz-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
   filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
   text-align: center;
+  position: 40eh 40ew;
   background-color: black;
   background-image: url(TdGn46C.png);
   animation: zoom 2s ease-out forwards;
