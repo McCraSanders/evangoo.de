@@ -18,12 +18,17 @@ body {
           justify-content: center;
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
-  color: #888888;
+  color: white;
+  fill: white;
+  -webkit-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
+  -moz-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
+  filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
   text-align: center;
   background-color: black;
   background-image: url(TdGn46C.png);
   background-size: cover; 
-  background-position: center center; }
+  Background-repeat: no-repeat;
+  background-position: -40vw -40vh; }
 
 main {
   -webkit-animation: opacity 3s ease-in-out, shimmer 1s linear;
@@ -42,7 +47,6 @@ h1 {
     h1 {
       font-size: 3em; } }
 h2 {
-  color: #888888; 
    -webkit-animation: letter-spacing 3s ease-in-out;
           animation: letter-spacing 3s ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -66,7 +70,7 @@ h2 {
     height: 2.5em;
     width: 2.5em; }
     .links svg path, svg circle {
-      fill: #888888; }
+      fill: inherit; }
     .links svg:hover {
       -webkit-transform: scale(0.9);
               transform: scale(0.9); }
