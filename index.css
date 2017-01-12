@@ -28,7 +28,8 @@ body {
   position: 40eh 40ew;
   background-color: black;
   background-image: url(TdGn46C.png);
-  background-size: 100 100;
+  animation: zoom ;
+  background-size: 100eh 100ew;
   background-repeat: no-repeat; }
 
 @keyframes animatedBackground {
