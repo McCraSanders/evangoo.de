@@ -16,11 +16,14 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #000000;
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
   color: #888888;
-  text-align: center; }
+  text-align: center;
+  background-color: black;
+  background-image: url(TdGn46C.png);
+  background-size: cover; 
+  background-position: center center; }
 
 main {
   -webkit-animation: opacity 3s ease-in-out, shimmer 1s linear;
