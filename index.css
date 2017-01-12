@@ -28,21 +28,9 @@ body {
   position: 40eh 40ew;
   background-color: black;
   background-image: url(TdGn46C.png);
-  animation: zoom 2s ease-out forwards;
+  animation: opacity 3s ease-in-out;
   background-size: 100ew 100eh;
   background-repeat: no-repeat; }
-
-@keyframes zoom {
-  from {
-    background-size: 30ew 30eh;
-  } to {
-    background-size: 100ew 100eh;
-  }
-}
-
-@backrgoung-image {
-  -webkit-animation: opacity 3s ease-in-out;
-          animation: opacity 3s ease-in-out; }
 
 main {
   -webkit-animation: opacity 3s ease-in-out;
