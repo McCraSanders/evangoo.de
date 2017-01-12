@@ -32,10 +32,9 @@ body {
   background-size: 100eh 100ew;
   background-repeat: no-repeat; }
 
-@keyframes animatedBackground {
-	from { background-position: 0 0; }
-	to { background-position: 100% 0; }
-}
+background {
+  -webkit-animation: opacity 3s ease-in-out;
+          animation: opacity 3s ease-in-out; }
 
 main {
   -webkit-animation: opacity 3s ease-in-out;
