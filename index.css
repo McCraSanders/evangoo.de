@@ -40,7 +40,7 @@ body {
   }
 }
 
-backrgoung-image {
+@backrgoung-image {
   -webkit-animation: opacity 3s ease-in-out;
           animation: opacity 3s ease-in-out; }
 
