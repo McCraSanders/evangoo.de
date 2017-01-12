@@ -20,8 +20,8 @@ body {
           justify-content: center;
   font-family: 'Raleway', sans-serif;
   font-weight: lighter; 
-  color: #4a4a4a;
-  fill: #4a4a4a;
+  color: white;
+  fill: white;
   -webkit-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
   -moz-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
   filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
