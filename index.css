@@ -28,7 +28,7 @@ body {
   position: 40eh 40ew;
   background-color: black;
   background-image: url(TdGn46C.png);
-  animation: fadein 3s ease-out;
+  animation: fadein 3s ease-in;
   background-size: 600px 600px;
   background-repeat: no-repeat; }
 
