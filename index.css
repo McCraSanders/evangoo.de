@@ -9,6 +9,23 @@ html, body {
   margin: 0; }
 
 body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  color: white;
+  fill: white;
+  -webkit-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
+  -moz-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
+  filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
+  text-align: center;
+  background-attachment: fixed;
+  background-color: black;
+  background-image: url(TdGn46C.png);
+  background-size: 600px 600px;
+  background-repeat: no-repeat; }
+
+.container {
+  width: 100vw;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,19 +35,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: 'Raleway', sans-serif;
-  font-weight: lighter; 
-  color: white;
-  fill: white;
-  -webkit-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
-  -moz-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
-  filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
-  text-align: center;
-  position: 40eh 40ew;
-  background-color: black;
-  background-image: url(TdGn46C.png);
-  background-size: 600px 600px;
-  background-repeat: no-repeat; }
+}
 
 main {
   -webkit-animation: opacity 3s ease-in-out;
