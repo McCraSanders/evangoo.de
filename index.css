@@ -9,8 +9,8 @@ html, body {
   margin: 0; }
 
 body {
-  font-family: 'impact', sans-serif;
-  font-weight: 50;
+  font-family: 'courier new', sans-serif;
+  font-weight: lighter;
   color: white;
   fill: white;
   -webkit-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
