@@ -10,7 +10,7 @@ html, body {
 
 body {
   font-family: 'Courier New', sans-serif;
-  font-weight: lighter;
+  font-weight: 200;
   color: white;
   fill: white;
   -webkit-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
