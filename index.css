@@ -70,6 +70,7 @@ h2 {
     transition: -webkit-transform 0.25s ease-in-out;
     transition: transform 0.25s ease-in-out;
     transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+    padding: 0.5em;
     height: 2.5em;
     width: 2.5em; }
     .links svg path, svg circle {
