@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=lucida);
+@import url(https://fonts.googleapis.com/css?family=AndaléMono);
 * {
   box-sizing: border-box;
   user-select: none;
@@ -9,7 +9,7 @@ html, body {
   margin: 0; }
 
 body {
-  font-family: 'lucida', sans-serif;
+  font-family: 'Andalé Mono', sans-serif;
   font-weight: lighter;
   color: white;
   fill: white;
