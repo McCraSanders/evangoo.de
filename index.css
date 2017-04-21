@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Couriernew);
+@import url(https://fonts.googleapis.com/css?family=lucida);
 * {
   box-sizing: border-box;
   user-select: none;
@@ -9,7 +9,7 @@ html, body {
   margin: 0; }
 
 body {
-  font-family: 'courier new', sans-serif;
+  font-family: 'lucida', sans-serif;
   font-weight: lighter;
   color: white;
   fill: white;
