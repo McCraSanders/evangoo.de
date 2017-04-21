@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=AndaléMono);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 * {
   box-sizing: border-box;
   user-select: none;
@@ -9,7 +9,7 @@ html, body {
   margin: 0; }
 
 body {
-  font-family: 'Andalé Mono', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: lighter;
   color: white;
   fill: white;
