@@ -13,9 +13,6 @@ body {
   font-weight: lighter;
   color: white;
   fill: white;
-  -webkit-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
-  -moz-filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
-  filter: drop-shadow(0 0 12px rgba(0,0,0,0.8));
   text-align: center;
   background-color: #335c6a;
   background-size: 600px 600px;
