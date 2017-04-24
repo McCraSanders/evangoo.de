@@ -21,6 +21,7 @@ body {
 .container {
   width: 100vw;
   height: 100vh;
+  padding: 3em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
