@@ -34,13 +34,13 @@ body {
 }
 
 main {
-  -webkit-animation: opacity 3s ease-in-out;
-          animation: opacity 3s ease-in-out; }
+  -webkit-animation: opacity 10s ease-in-out;
+          animation: opacity 10s ease-in-out; }
 
 h1 {
   font-size: 4em;
-  -webkit-animation: letter-spacing 3s ease-in-out;
-          animation: letter-spacing 3s ease-in-out;
+  -webkit-animation: letter-spacing 10s ease-in-out;
+          animation: letter-spacing 10s ease-in-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   text-align: inherit; }
@@ -48,8 +48,8 @@ h1 {
     h1 {
       font-size: 3em; } }
 h2 {
-   -webkit-animation: letter-spacing 3s ease-in-out;
-          animation: letter-spacing 3s ease-in-out;
+   -webkit-animation: letter-spacing 10s ease-in-out;
+          animation: letter-spacing 10s ease-in-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   text-align: inherit; }
