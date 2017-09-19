@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Courier New);
 * {
   box-sizing: border-box;
   user-select: none;
@@ -9,7 +9,7 @@ html, body {
   margin: 0; }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Courier New', sans-serif;
   font-weight: lighter;
   color: #4A532B;
   fill: #4A532B;
