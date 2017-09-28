@@ -45,9 +45,9 @@ p {
           animation-fill-mode: forwards;
   text-align: inherit; }
   @media screen and (max-width: 640px) {
-    h1 {
-      font-size: 3em; } }
-h2 {
+    p {
+      font-size: .01em; } }
+p {
    -webkit-animation: letter-spacing 10s ease-in-out;
           animation: letter-spacing 10s ease-in-out;
   -webkit-animation-fill-mode: forwards;
