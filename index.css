@@ -37,8 +37,8 @@ main {
   -webkit-animation: opacity 10s ease-in-out;
           animation: opacity 10s ease-in-out; }
 
-h1 {
-  font-size: 4em;
+p {
+  font-size: .01em;
   -webkit-animation: letter-spacing 10s ease-in-out;
           animation: letter-spacing 10s ease-in-out;
   -webkit-animation-fill-mode: forwards;
