@@ -37,7 +37,7 @@ main {
   -webkit-animation: opacity 5s ease-in-out;
           animation: opacity 5s ease-in-out; }
 
-p {
+main {
   font-size: 5em;
   -webkit-animation: letter-spacing 5s ease-in-out;
           animation: letter-spacing 5s ease-in-out;
@@ -45,9 +45,9 @@ p {
           animation-fill-mode: forwards;
   text-align: inherit; }
   @media screen and (max-width: 640px) {
-    p {
+    main {
       font-size: 5em; } }
-p {
+main {
    -webkit-animation: letter-spacing 5s ease-in-out;
           animation: letter-spacing 5s ease-in-out;
   -webkit-animation-fill-mode: forwards;
