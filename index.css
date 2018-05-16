@@ -38,18 +38,18 @@ main {
           animation: opacity 5s ease-in-out; }
 
 main {
-  font-size: .5em;
-  -webkit-animation: letter-spacing 5s ease-in-out;
-          animation: letter-spacing 5s ease-in-out;
+  font-size: 1em;
+  -webkit-animation: letter-spacing 3s ease-in-out;
+          animation: letter-spacing 3s ease-in-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   text-align: inherit; }
   @media screen and (max-width: 640px) {
     main {
-      font-size: .5em; } }
+      font-size: 1em; } }
 main {
-   -webkit-animation: letter-spacing 5s ease-in-out;
-          animation: letter-spacing 5s ease-in-out;
+   -webkit-animation: letter-spacing 3s ease-in-out;
+          animation: letter-spacing 3s ease-in-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   text-align: inherit; }
