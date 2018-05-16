@@ -18,6 +18,10 @@ body {
   background-size: 600px 600px;
   background-repeat: no-repeat; }
 
+ul{
+  list-style-type:none;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
