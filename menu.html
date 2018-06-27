@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>McCrae Sanders</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  
+  <ul id="menu">
+    <li><a href="index.html">home</a></li>
+    <li><a href="blog.html">blog</a></li>
+
+<style>
+  ul#menu {
+    padding:0:
+  }
+  ul#menu li a {
+    display:inline;
+  }
+  ul#menu li a {
+    backgrond-color:white;
+    color:black;
+    padding: 10px 20px;
+    textdecoration: none;
+    border-radius: 1px 1px 0 0;
+    align:left;
+  }
+</style>
+    
+  <script>
+    document.querySelector(".snapchat").addEventListener("click", function() {
+      if(!document.querySelector(".modal").classList.contains("active")) {
+        document.querySelector(".modal").classList.add("active")
+      }
+    })
+    document.querySelector(".modal").addEventListener("click", function(event) {
+      if(document.querySelector(".modal").classList.contains("active")) {
+        document.querySelector(".modal").classList.remove("active")
+      }
+    })
+  </script>
+</body>
+
+</html>
